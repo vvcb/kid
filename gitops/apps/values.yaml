@@ -26,6 +26,9 @@ projects:
       pods: 4
       storage: 5Gi
     sharedStorage: 1Gi
+    internetAllowlist:
+      - pypi.org
+      - files.pythonhosted.org
 
   - name: beta
     displayName: Project Beta
